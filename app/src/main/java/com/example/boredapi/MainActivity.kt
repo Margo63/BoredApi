@@ -55,6 +55,7 @@ class MainActivity : ComponentActivity(),SensorEventListener {
 
                     Column(modifier = Modifier.fillMaxSize()) {
                         Text(text = mainViewModel.activity)
+
                         //старый вызов по кнопке
 //                        Button(onClick = {
 //                            mainViewModel.getActivity()
